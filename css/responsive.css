@@ -1,0 +1,34 @@
+@media screen and (max-width: 1200px){
+    /*  Common CSS for all the devices */  
+    #header,.banner_box,.service_box,.experience_wrap,.blog_wrap,.menu {width:90%}
+    .event_box {width:85%}  
+    .blog img,.service_image img{width:100%;}
+
+}
+
+@media screen and (min-width: 0px) and (max-width: 480px){
+    /*  Header part  */  
+    .social{display:none;}
+    .header_right {width:30%;}
+    }
+    
+    @media screen and (min-width: 480px) and (max-width: 768px){
+   
+    }
+    
+    
+    @media screen and (min-width: 769px) and (max-width: 992px){
+        .footer_wrapper{width:90%}
+    }
+    
+    @media screen and (min-width: 993px) and (max-width: 1200px){
+        .blog_box{width:30%;}
+        .blog_left{width:30%;}
+        .blog_right{width:65%;}
+        .service_left {width:49%;}
+        .service_text{width:68%;}
+        .banner_box{padding:100px 0px 150px}
+    
+    }
+
+ 
