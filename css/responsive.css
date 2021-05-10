@@ -1,33 +1,143 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1360px){
     /*  Common CSS for all the devices */  
-    #header,.banner_box,.service_box,.experience_wrap,.blog_wrap,.menu {width:90%}
-    .event_box {width:85%}  
+    #header,.banner_box,.service_box,.experience_wrap,.blog_wrap,.menu {width:90%;}
+    .event_box {width:85%;}  
     .blog img,.service_image img{width:100%;}
 
 }
-
-@media screen and (min-width: 0px) and (max-width: 480px){
+@media screen and (max-width: 300px){
+    #header{flex-wrap: wrap;display: block!important;}
+    .dropdown-content {margin-top:2px;}
+    figure{width:100%;justify-content: center;}
+    .header_right {width: 100% !important;}
+    .logo img{width:80%;}
+    .experience1 img {width: 60% !important;}
+    .newsletter {display: block !important;}
+    .newsletter_left, .input{width: 93% !important;border-radius: 5px 5px 0px 5px;}
+    .newsletter_right {width: 60% !important;border-radius: 0px 0px 5px 5px;float: right}
+    footer{padding:40px 0px!important;} 
+    .dropdown-content a {padding:10px 0px 7px!important;}
+    .menu{padding:5px 0px 10px;}
+    
+}
+@media screen and (max-width: 480px){
     /*  Header part  */  
     .social{display:none;}
-    .header_right {width:30%;}
+    .header_right {width:30%; justify-content: flex-end;}
+    .dropdown-content a {padding: 10px 0px 16px;font-size:15px;}
+    .banner_box{padding:40px 0px 50px;}
+    .banner_box h1 {font-size:22px;}
+    .banner_button{width:60%;flex-wrap: wrap;display:block;}
+    .global_button a{width:100%;margin-bottom: 5px;}
+    .explore_button a{width:100%;}
+    .event_left{padding:40px 0px 45px;width:100%;justify-content: center;margin:0px auto}
+    .event_box h3 {font-size:20px;margin: 7px 0px 10px;}
+    .event_box h2{font-size:20px;}
+    .download_button a {font-size:13px;padding: 13px 0px;}
+    .blog{padding:45px 0px 60px;}
+    .banner_box h2 {font-size:17px;margin: 20px 0px 18px;}
+    .blog_box{width:100%;margin-top: 30px;}
+    .blog_left{width:30%;padding:20px 0px 90px;}
+    .blog_right{width:65%;padding-bottom: 0px;}
+    .blog h6{margin-bottom: 0px;}
+    .blog h3{font-size:36px;margin-bottom:10px;}
+    .blog h4 {font-size:15px;}
+    .blog h5 {font-size:18px;}
+    .blog h2 {font-size: 26px;}
+    .blog_wrap{flex-wrap: wrap;}
+    .service_box{margin-top: 30px;} 
+    .service_left {width:100%;margin-bottom:25px;}
+    .service_text{width:65%;}
+    .service_image {width:30%;}
+    .service_left h4{font-size:17px;}
+    .service_left p{font-size:14px;padding-top:15px;}
+    .experience{padding: 50px 0px 30px;background-color: #000;background-image: inherit;} 
+    .experience h2 {margin-bottom: 35px;font-size:26px;}
+    .experience1 img{width:auto;}
+    .experience1{width: 90%;margin: 0px auto 30px;}
+    .experience1 p{font-size:16px;margin: 20px 0px;min-height:inherit;}
+    .experience1 h3 {font-size:19px;}
+    .experience_wrap{flex-wrap: wrap;}
+     footer{padding:50px 0px 60px} 
+    .footer_wrapper{width:90%}
+    .footer_menu{display:none;}
+    .footer_menu1{display:block;}
+    .footer_menu1 ul li {margin-bottom: 5px;}
+    .newsletter{width:90%; margin: 30px auto 30px;} 
+    .newsletter_left, .input{width:60%;padding:15px 0px 15px 15px;font-size:14px;}
+    .newsletter_right{width:40%;padding:15px 0px 15px;font-size:14px;}
+    footer h2{font-size: 28px;}
     }
     
     @media screen and (min-width: 480px) and (max-width: 768px){
-   
+        .dropdown-content a {padding: 10px 0px 16px;font-size:15px;}
+        .banner_box{padding:60px 0px 80px;}
+        .banner_box h1 {font-size:30px;}
+        .event_left{padding:50px 0px 55px;}
+        .event_box h3 {font-size:21px;}
+        .event_box h2{font-size:21px;}
+        .blog{padding-bottom:80px;}
+        .banner_box h2 {font-size:19px;margin: 20px 0px 18px;}
+        .blog_box{width:48%;margin-top: 30px;}
+        .blog_left{width:30%;padding:20px 0px 141px;}
+        .blog_right{width:65%;padding-bottom: 0px;}
+        .blog h6{margin-bottom: 15px;}
+        .blog h3{font-size:36px;margin-bottom:10px;}
+        .blog h4 {font-size:15px;}
+        .blog h5 {font-size:18px;}
+        .blog h2 {font-size: 34px;}
+        .blog_wrap{flex-wrap: wrap;}
+        .service_box{margin-top: 30px;} 
+        .service_left {width:49%;margin-bottom:25px;}
+        .service_text{width:65%;}
+        .service_image {width:30%;}
+        .service_left h4{font-size:17px;}
+        .service_left p{font-size:14px;padding-top:15px;}
+        .experience{padding:60px 0px 70px} 
+        .experience h2 {margin-bottom: 40px;font-size:28px;}
+        .experience1 img{width:90%;}
+        .experience1{width:33%;}
+        .experience1 p{font-size:16px;margin: 25px 0px;}
+        .experience1 h3 {font-size:19px;}
+         footer{padding:60px 0px 80px} 
+        .footer_wrapper{width:90%}
+        .footer_menu ul li{padding:0px 3%;}
+        .newsletter{width:80%;} 
+        .newsletter_left, .input{width:70%;padding:16px 0px 16px 25px;}
+        .newsletter_right{width:30%;padding:16px 0px 16px;}
+        footer h2{font-size: 42px;}
     }
     
     
     @media screen and (min-width: 769px) and (max-width: 992px){
+        .banner_box{padding:90px 0px 140px;}
+        .event_left{padding:110px 0px 115px;}
+        .blog{padding-bottom:90px;}
+        .blog_box{width:30%;margin-top: 30px;}
+        .blog_left{width:30%;padding:20px 0px 141px;}
+        .blog_right{width:65%;padding-bottom: 40px;}
+        .blog h6{margin-bottom: 25px;}
+        .blog h3{font-size:36px;margin-bottom:10px;}
+        .blog h4 {font-size:15px;}
+        .blog h5 {font-size:18px;}
+        .service_box{margin-top: 40px;} 
+        .service_left {width:49%;margin-bottom:35px;}
+        .service_text{width:65%;}
+        .service_image {width:30%;}
+        .experience{padding:70px 0px 130px} 
+        .experience h2 {margin-bottom: 50px;}
+         footer{padding:80px 0px 100px} 
         .footer_wrapper{width:90%}
+        .footer_menu ul li{padding:0px 6%;}
     }
     
     @media screen and (min-width: 993px) and (max-width: 1200px){
+        .banner_box{padding:100px 0px 150px}
         .blog_box{width:30%;}
         .blog_left{width:30%;}
         .blog_right{width:65%;}
         .service_left {width:49%;}
         .service_text{width:68%;}
-        .banner_box{padding:180px 0px 150px}
     
     }
 
